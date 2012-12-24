@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CustomUIView.h"
+#import "SemiCircle.h"
 @interface ViewController ()
 
 @end
@@ -37,12 +38,16 @@ UIView *circle=[[[UIView alloc]initWithFrame:CGRectMake(center.x-radius, center.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    [self.view addSubview:[self drawCircleAtPoint:CGPointMake(200, 200) WithRadius:100]];
-//    [self.view addSubview:[self drawCircleAtPoint:CGPointMake(200, 400) WithRadius:100]];
-    [self.view addSubview:[self drawSemiCircleAtPoint:CGPointMake(400,400) WithRadius:100]];
+////    [self.view addSubview:[self drawCircleAtPoint:CGPointMake(200, 200) WithRadius:100]];
+////    [self.view addSubview:[self drawCircleAtPoint:CGPointMake(200, 400) WithRadius:100]];
+//    [self.view addSubview:[self drawSemiCircleAtPoint:CGPointMake(400,400) WithRadius:100]];
 //    [self.view addSubview:[self drawFilledRectangleStart:CGPointMake(100, 100) End:CGPointMake(200, 200)]];
     //[self drawFilledRectangleStart:];
 	// Do any additional setup after loading the view, typically from a nib.
+    SemiCircle *semi= [[SemiCircle alloc]initWithFrame:CGRectMake(100, 100, 500, 500) WithFace:RIGHT_SEMICIRCLE];
+    [self.view addSubview:semi];
+    [semi setBackgroundColor:[UIColor clearColor]];
+    
 }
 
 

@@ -19,6 +19,8 @@
     return self;
 }
 
+
+
 -(void)drawRect:(CGRect)rect{
     [super drawRect:rect];
     CGContextRef ctx = UIGraphicsGetCurrentContext();
@@ -29,6 +31,8 @@
 //    CGContextAddLineToPoint(ctx, 100.0f, 300.0f);
 //    CGContextClosePath(ctx);
 //    CGContextStrokePath(ctx);
+    
+    
     CGContextAddArc(ctx, 100, 100, 100, 0, 2*M_PI, 1);
     CGContextSetFillColorWithColor(ctx, [[UIColor redColor]CGColor]);
     CGContextFillPath(ctx);

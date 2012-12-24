@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		170BADC4168798FE00AE9011 /* CustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170BADC3168798FE00AE9011 /* CustomUIView.m */; };
+		170BADD0168897B400AE9011 /* SemiCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 170BADCF168897B400AE9011 /* SemiCircle.m */; };
 		174A069D167A75AA00789ACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174A069C167A75AA00789ACC /* UIKit.framework */; };
 		174A069F167A75AA00789ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174A069E167A75AA00789ACC /* Foundation.framework */; };
 		174A06A1167A75AA00789ACC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174A06A0167A75AA00789ACC /* CoreGraphics.framework */; };
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		170BADC2168798FE00AE9011 /* CustomUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUIView.h; sourceTree = "<group>"; };
 		170BADC3168798FE00AE9011 /* CustomUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIView.m; sourceTree = "<group>"; };
+		170BADCE168897B400AE9011 /* SemiCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiCircle.h; sourceTree = "<group>"; };
+		170BADCF168897B400AE9011 /* SemiCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemiCircle.m; sourceTree = "<group>"; };
 		174A0698167A75AA00789ACC /* SpeedMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		174A069C167A75AA00789ACC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		174A069E167A75AA00789ACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +104,8 @@
 				174A06B7167A75AA00789ACC /* ViewController_iPhone.xib */,
 				174A06BA167A75AA00789ACC /* ViewController_iPad.xib */,
 				174A06A3167A75AA00789ACC /* Supporting Files */,
+				170BADCE168897B400AE9011 /* SemiCircle.h */,
+				170BADCF168897B400AE9011 /* SemiCircle.m */,
 			);
 			path = SpeedMeter;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				174A06AD167A75AA00789ACC /* AppDelegate.m in Sources */,
 				174A06B6167A75AA00789ACC /* ViewController.m in Sources */,
 				170BADC4168798FE00AE9011 /* CustomUIView.m in Sources */,
+				170BADD0168897B400AE9011 /* SemiCircle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
