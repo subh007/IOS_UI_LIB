@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170BADC4168798FE00AE9011 /* CustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170BADC3168798FE00AE9011 /* CustomUIView.m */; };
+		174A069D167A75AA00789ACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174A069C167A75AA00789ACC /* UIKit.framework */; };
+		174A069F167A75AA00789ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174A069E167A75AA00789ACC /* Foundation.framework */; };
+		174A06A1167A75AA00789ACC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174A06A0167A75AA00789ACC /* CoreGraphics.framework */; };
+		174A06A7167A75AA00789ACC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 174A06A5167A75AA00789ACC /* InfoPlist.strings */; };
+		174A06A9167A75AA00789ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 174A06A8167A75AA00789ACC /* main.m */; };
+		174A06AD167A75AA00789ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 174A06AC167A75AA00789ACC /* AppDelegate.m */; };
+		174A06AF167A75AA00789ACC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 174A06AE167A75AA00789ACC /* Default.png */; };
+		174A06B1167A75AA00789ACC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 174A06B0167A75AA00789ACC /* Default@2x.png */; };
+		174A06B3167A75AA00789ACC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 174A06B2167A75AA00789ACC /* Default-568h@2x.png */; };
+		174A06B6167A75AA00789ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174A06B5167A75AA00789ACC /* ViewController.m */; };
+		174A06B9167A75AA00789ACC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174A06B7167A75AA00789ACC /* ViewController_iPhone.xib */; };
+		174A06BC167A75AA00789ACC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174A06BA167A75AA00789ACC /* ViewController_iPad.xib */; };
+		174A06C3167A7A4300789ACC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174A06C2167A7A4300789ACC /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		170BADC2168798FE00AE9011 /* CustomUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUIView.h; sourceTree = "<group>"; };
+		170BADC3168798FE00AE9011 /* CustomUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIView.m; sourceTree = "<group>"; };
+		174A0698167A75AA00789ACC /* SpeedMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		174A069C167A75AA00789ACC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		174A069E167A75AA00789ACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		174A06A0167A75AA00789ACC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		174A06A4167A75AA00789ACC /* SpeedMeter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeedMeter-Info.plist"; sourceTree = "<group>"; };
+		174A06A6167A75AA00789ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		174A06A8167A75AA00789ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		174A06AA167A75AA00789ACC /* SpeedMeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeedMeter-Prefix.pch"; sourceTree = "<group>"; };
+		174A06AB167A75AA00789ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		174A06AC167A75AA00789ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		174A06AE167A75AA00789ACC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		174A06B0167A75AA00789ACC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		174A06B2167A75AA00789ACC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		174A06B4167A75AA00789ACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		174A06B5167A75AA00789ACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		174A06B8167A75AA00789ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		174A06BB167A75AA00789ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		174A06C2167A7A4300789ACC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		174A0695167A75AA00789ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174A06C3167A7A4300789ACC /* QuartzCore.framework in Frameworks */,
+				174A069D167A75AA00789ACC /* UIKit.framework in Frameworks */,
+				174A069F167A75AA00789ACC /* Foundation.framework in Frameworks */,
+				174A06A1167A75AA00789ACC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174A068D167A75AA00789ACC = {
+			isa = PBXGroup;
+			children = (
+				174A06C2167A7A4300789ACC /* QuartzCore.framework */,
+				174A06A2167A75AA00789ACC /* SpeedMeter */,
+				174A069B167A75AA00789ACC /* Frameworks */,
+				174A0699167A75AA00789ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		174A0699167A75AA00789ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				174A0698167A75AA00789ACC /* SpeedMeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		174A069B167A75AA00789ACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				174A069C167A75AA00789ACC /* UIKit.framework */,
+				174A069E167A75AA00789ACC /* Foundation.framework */,
+				174A06A0167A75AA00789ACC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		174A06A2167A75AA00789ACC /* SpeedMeter */ = {
+			isa = PBXGroup;
+			children = (
+				174A06AB167A75AA00789ACC /* AppDelegate.h */,
+				174A06AC167A75AA00789ACC /* AppDelegate.m */,
+				174A06B4167A75AA00789ACC /* ViewController.h */,
+				174A06B5167A75AA00789ACC /* ViewController.m */,
+				170BADC2168798FE00AE9011 /* CustomUIView.h */,
+				170BADC3168798FE00AE9011 /* CustomUIView.m */,
+				174A06B7167A75AA00789ACC /* ViewController_iPhone.xib */,
+				174A06BA167A75AA00789ACC /* ViewController_iPad.xib */,
+				174A06A3167A75AA00789ACC /* Supporting Files */,
+			);
+			path = SpeedMeter;
+			sourceTree = "<group>";
+		};
+		174A06A3167A75AA00789ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				174A06A4167A75AA00789ACC /* SpeedMeter-Info.plist */,
+				174A06A5167A75AA00789ACC /* InfoPlist.strings */,
+				174A06A8167A75AA00789ACC /* main.m */,
+				174A06AA167A75AA00789ACC /* SpeedMeter-Prefix.pch */,
+				174A06AE167A75AA00789ACC /* Default.png */,
+				174A06B0167A75AA00789ACC /* Default@2x.png */,
+				174A06B2167A75AA00789ACC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		174A0697167A75AA00789ACC /* SpeedMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174A06BF167A75AA00789ACC /* Build configuration list for PBXNativeTarget "SpeedMeter" */;
+			buildPhases = (
+				174A0694167A75AA00789ACC /* Sources */,
+				174A0695167A75AA00789ACC /* Frameworks */,
+				174A0696167A75AA00789ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedMeter;
+			productName = SpeedMeter;
+			productReference = 174A0698167A75AA00789ACC /* SpeedMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		174A068F167A75AA00789ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = subh;
+			};
+			buildConfigurationList = 174A0692167A75AA00789ACC /* Build configuration list for PBXProject "SpeedMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 174A068D167A75AA00789ACC;
+			productRefGroup = 174A0699167A75AA00789ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				174A0697167A75AA00789ACC /* SpeedMeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		174A0696167A75AA00789ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174A06A7167A75AA00789ACC /* InfoPlist.strings in Resources */,
+				174A06AF167A75AA00789ACC /* Default.png in Resources */,
+				174A06B1167A75AA00789ACC /* Default@2x.png in Resources */,
+				174A06B3167A75AA00789ACC /* Default-568h@2x.png in Resources */,
+				174A06B9167A75AA00789ACC /* ViewController_iPhone.xib in Resources */,
+				174A06BC167A75AA00789ACC /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174A0694167A75AA00789ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174A06A9167A75AA00789ACC /* main.m in Sources */,
+				174A06AD167A75AA00789ACC /* AppDelegate.m in Sources */,
+				174A06B6167A75AA00789ACC /* ViewController.m in Sources */,
+				170BADC4168798FE00AE9011 /* CustomUIView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		174A06A5167A75AA00789ACC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174A06A6167A75AA00789ACC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		174A06B7167A75AA00789ACC /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174A06B8167A75AA00789ACC /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		174A06BA167A75AA00789ACC /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174A06BB167A75AA00789ACC /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		174A06BD167A75AA00789ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		174A06BE167A75AA00789ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		174A06C0167A75AA00789ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedMeter/SpeedMeter-Prefix.pch";
+				INFOPLIST_FILE = "SpeedMeter/SpeedMeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		174A06C1167A75AA00789ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedMeter/SpeedMeter-Prefix.pch";
+				INFOPLIST_FILE = "SpeedMeter/SpeedMeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174A0692167A75AA00789ACC /* Build configuration list for PBXProject "SpeedMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174A06BD167A75AA00789ACC /* Debug */,
+				174A06BE167A75AA00789ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174A06BF167A75AA00789ACC /* Build configuration list for PBXNativeTarget "SpeedMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174A06C0167A75AA00789ACC /* Debug */,
+				174A06C1167A75AA00789ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 174A068F167A75AA00789ACC /* Project object */;
+}
