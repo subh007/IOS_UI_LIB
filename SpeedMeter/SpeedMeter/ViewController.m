@@ -38,27 +38,27 @@ UIView *circle=[[[UIView alloc]initWithFrame:CGRectMake(center.x-radius, center.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-////    [self.view addSubview:[self drawCircleAtPoint:CGPointMake(200, 200) WithRadius:100]];
+    [self.view addSubview:[self drawCircleAtPoint:CGPointMake(200, 200) WithRadius:100]];
 ////    [self.view addSubview:[self drawCircleAtPoint:CGPointMake(200, 400) WithRadius:100]];
 //    [self.view addSubview:[self drawSemiCircleAtPoint:CGPointMake(400,400) WithRadius:100]];
 //    [self.view addSubview:[self drawFilledRectangleStart:CGPointMake(100, 100) End:CGPointMake(200, 200)]];
     //[self drawFilledRectangleStart:];
 	// Do any additional setup after loading the view, typically from a nib.
-    SemiCircle *semi1= [[SemiCircle alloc]initWithFrame:CGRectMake(100, 100, 500, 500) WithFace:HALF_SEMICIRCLE];
-    [self.view addSubview:semi1];
-    [semi1 setBackgroundColor:[UIColor clearColor]];
-    
-    SemiCircle *semi2= [[SemiCircle alloc]initWithFrame:CGRectMake(100, 100, 500, 500) WithFace:DOWN_SEMICIRCLE];
-    [self.view addSubview:semi2];
-    [semi2 setBackgroundColor:[UIColor clearColor]];
-    
-    SemiCircle *semi3= [[SemiCircle alloc]initWithFrame:CGRectMake(100, 100, 500, 500) WithFace:RIGHT_SEMICIRCLE];
-    [self.view addSubview:semi3];
-    [semi3 setBackgroundColor:[UIColor clearColor]];
-    
-    SemiCircle *semi4= [[SemiCircle alloc]initWithFrame:CGRectMake(100, 100, 500, 500) WithFace:LEFT_SEMICIRCLE];
-    [self.view addSubview:semi4];
-    [semi4 setBackgroundColor:[UIColor clearColor]];
+//    SemiCircle *semi1= [[SemiCircle alloc]initWithFrame:CGRectMake(100, 100, 500, 500) WithFace:HALF_SEMICIRCLE];
+//    [self.view addSubview:semi1];
+//    [semi1 setBackgroundColor:[UIColor clearColor]];
+//    
+//    SemiCircle *semi2= [[SemiCircle alloc]initWithFrame:CGRectMake(100, 100, 500, 500) WithFace:DOWN_SEMICIRCLE];
+//    [self.view addSubview:semi2];
+//    [semi2 setBackgroundColor:[UIColor clearColor]];
+//    
+//    SemiCircle *semi3= [[SemiCircle alloc]initWithFrame:CGRectMake(100, 100, 500, 500) WithFace:RIGHT_SEMICIRCLE];
+//    [self.view addSubview:semi3];
+//    [semi3 setBackgroundColor:[UIColor clearColor]];
+//    
+//    SemiCircle *semi4= [[SemiCircle alloc]initWithFrame:CGRectMake(100, 100, 500, 500) WithFace:LEFT_SEMICIRCLE];
+//    [self.view addSubview:semi4];
+//    [semi4 setBackgroundColor:[UIColor clearColor]];
     
 }
 
