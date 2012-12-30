@@ -11,16 +11,16 @@ draw a semi circle :
       
 SemiCircle
 
-  ![Alt text](https://github.com/subh007/IOS_UI_LIB/blob/master/images/semi.png)
+  ![Alt text](https://raw.github.com/subh007/IOS_UI_LIB/master/images/semi.png)
   
 DownSemiCircle :
       
-  ![Alt text](https://github.com/subh007/IOS_UI_LIB/blob/master/images/Screen%20Shot%202012-12-30%20at%201.27.15%20AM%20copy.png)
+  ![Alt text](https://raw.github.com/subh007/IOS_UI_LIB/master/images/downsemi.png)
       
 Right SemiCircle
 
-  ![Alt text](https://github.com/subh007/IOS_UI_LIB/blob/master/images/Screen%20Shot%202012-12-30%20at%201.27.44%20AM%20copy.png)    
+  ![Alt text](https://raw.github.com/subh007/IOS_UI_LIB/master/images/rightsemi.png)    
 
 Left SemiCircle
 
-  ![Alt text](https://github.com/subh007/IOS_UI_LIB/blob/master/images/Screen%20Shot%202012-12-30%20at%201.28.01%20AM%20copy.png)
+  ![Alt text](https://raw.github.com/subh007/IOS_UI_LIB/master/images/leftsemi.png)
